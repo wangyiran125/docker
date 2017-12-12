@@ -1,7 +1,7 @@
 # Generated automatically by update.sh
 # Do no edit this file
 
-FROM wangyiran7678/openjdk:8-jdk-alpine
+FROM openjdk:8-alpine
 
 # Patch to generate images in Wercker's pipelines.
 #COPY env /usr/local/bin/env
