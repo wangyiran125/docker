@@ -1,4 +1,4 @@
-FROM wangyiran7678/jdk:8
+FROM openjdk:8-alpine
 
 RUN apk add --no-cache curl tar bash
 
